@@ -11,9 +11,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-            <script src='https://kit.fontawesome.com/433667d0d8.js' crossOrigin='anonymous'/>
-        </Head>
+        <Head/>
         <body style={{backgroundColor: 'red'}}>
           <Main />
           <NextScript />
